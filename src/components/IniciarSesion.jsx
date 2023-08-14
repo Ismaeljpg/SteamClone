@@ -13,7 +13,7 @@ function Login() {
     } else {
       // Error al iniciar sesión
       setErrorMessage(
-        "Comprueba tu contraseña y nombre de cuenta e inténtalo de nuevo."
+        "Comprueba tu contraseña y nombre de cuenta e inténtalo de nuevo.",
       );
     }
   };
@@ -94,18 +94,17 @@ function Login() {
                 </div>
               </div>
               <div className="QRresponsive">
-                    <div className="nuevo">
-                      <p>¡NUEVO!</p>
-                    </div>
-                    <div className="Mobile">
-                      <p>
-                        Los usuarios de la aplicacion Steam Mobile pueden iniciar sesión escaneando un codigo QR
-                      </p>
-                    </div>
-                    <div className="btn-n">
-                      Ver codigo QR
-                    </div>
-                    <a href="">Más información</a>
+                <div className="nuevo">
+                  <p>¡NUEVO!</p>
+                </div>
+                <div className="Mobile">
+                  <p>
+                    Los usuarios de la aplicacion Steam Mobile pueden iniciar
+                    sesión escaneando un codigo QR
+                  </p>
+                </div>
+                <div className="btn-n">Ver codigo QR</div>
+                <a href="">Más información</a>
               </div>
             </div>
           </div>

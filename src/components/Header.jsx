@@ -1,7 +1,4 @@
 function Header() {
-
-
-
   return (
     <header>
       <div className="instalar">
@@ -15,7 +12,7 @@ function Header() {
         |<span className="lenguaje">idioma</span>
       </div>
       <div className="logo2">
-          <img src="public/steemlogo.png" alt="" />
+        <img src="public/steemlogo.png" alt="" />
       </div>
       <nav className="content-nav">
         <div className="logo">
@@ -26,12 +23,24 @@ function Header() {
             TIENDA
             <div className="Subcontent">
               <div className="TIENDA">
-                <p href="" className="Submenu">Inicio</p>
-                <p href="" className="Submenu">Lista de descubrimientos</p>
-                <p href="" className="Submenu">Lista de deseados</p>
-                <p href="" className="Submenu">Tienda de puntos</p>
-                <p href="" className="Submenu">Noticias</p>
-                <p href="" className="Submenu">Estadísticas</p>
+                <p href="" className="Submenu">
+                  Inicio
+                </p>
+                <p href="" className="Submenu">
+                  Lista de descubrimientos
+                </p>
+                <p href="" className="Submenu">
+                  Lista de deseados
+                </p>
+                <p href="" className="Submenu">
+                  Tienda de puntos
+                </p>
+                <p href="" className="Submenu">
+                  Noticias
+                </p>
+                <p href="" className="Submenu">
+                  Estadísticas
+                </p>
               </div>
             </div>
           </a>
@@ -39,11 +48,21 @@ function Header() {
             COMUNIDAD
             <div className="Subcontent">
               <div className="COMUNIDAD">
-                <p href="" className="Submenu">Inicio</p>
-                <p href="" className="Submenu">Discusiones</p>
-                <p href="" className="Submenu">Workshop</p>
-                <p href="" className="Submenu">Mercado</p>
-                <p href="" className="Submenu">Retransmisiones</p>
+                <p href="" className="Submenu">
+                  Inicio
+                </p>
+                <p href="" className="Submenu">
+                  Discusiones
+                </p>
+                <p href="" className="Submenu">
+                  Workshop
+                </p>
+                <p href="" className="Submenu">
+                  Mercado
+                </p>
+                <p href="" className="Submenu">
+                  Retransmisiones
+                </p>
               </div>
             </div>
           </a>
@@ -56,7 +75,6 @@ function Header() {
         </div>
       </nav>
     </header>
-
   );
 }
 
