@@ -73,7 +73,7 @@ function Login() {
                       </div>
 
                       <div className="ayuda">
-                        <a href="">ayuda,no puedo iniciar sesion</a>
+                        <a href="">Ayuda, no puedo iniciar sesion</a>
                       </div>
                     </div>
                   </div>

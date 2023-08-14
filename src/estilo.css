@@ -24,35 +24,27 @@
   padding: 0;
   box-sizing: border-box;
   color: #afafaf;
-  outline: 1px solid red;
 }
 
 body {
   background-image: url("public/fondo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #171D25;
-  
-}
-
-#root {
-  padding: 0;
+  background-color: #171d25;
 }
 
 header {
-   /* background: #171d25; */
-    position: relative;
-    width: 940px;
-    height: 104px;
-    margin: 0px auto;
-    z-index: 402;
-    align-items: center;
+  /* background: #171d25; */
+  height: 104px;
+  margin: 0px auto;
+  align-items: center;
+  padding: 0 10rem;
 }
 
 ::-webkit-scrollbar {
   height: 12px;
   width: 14px;
-  background: rgba(0,0,0,0);
+  background: rgba(0, 0, 0, 0);
   z-index: 12;
   overflow: visible;
 }
@@ -66,9 +58,9 @@ header {
   background-color: #434953;
   border-radius: 10px;
   z-index: 12;
-  border: 4px solid rgba(0,0,0,0);
+  border: 4px solid rgba(0, 0, 0, 0);
   background-clip: padding-box;
-  transition: background-color .32s ease-in-out;
+  transition: background-color 0.32s ease-in-out;
   margin: 4px;
   min-height: 32px;
   min-width: 32px;
@@ -81,12 +73,10 @@ header {
   column-gap: 15px;
   justify-content: end;
   font-family: "Motiva Sans Bold";
-  /* margin: 10px 0px 0 630px; */
   align-items: center;
 }
 
 .boton.green {
-  position: relative;
   background-color: #5c7e10;
   display: flex;
   padding: 6px 10px;
@@ -123,13 +113,8 @@ header {
   width: 100%;
   text-align: center;
   align-items: center;
-  position: relative;
-  top: -15px;
-  
-}
-
-.logo {
-  padding: 1rem;
+  padding-inline: 2rem;
+  column-gap: 2rem;
 }
 
 .logo img {
@@ -158,10 +143,9 @@ header {
   color: #fff;
 }
 
-
 .Subcontent {
   max-width: 100px;
-  background-color: #3D4450;
+  background-color: #3d4450;
   box-shadow: 3px 3px 5px -3px #000;
   text-align: left;
   display: none;
@@ -181,14 +165,12 @@ header {
   flex-direction: column;
   position: absolute;
   z-index: 1500;
-    /* opacity: 0; */
-    /* left: 1px; */
-    top: 50px;
-    cursor: pointer;
-    background-color: #3D4450;
-    box-shadow: 3px 3px 5px -3px #000;
-    z-index: 1000;
-    overflow: auto;
+  top: 4rem;
+  cursor: pointer;
+  background-color: #3d4450;
+  box-shadow: 3px 3px 5px -3px #000;
+  z-index: 1000;
+  overflow: auto;
 }
 
 .COMUNIDAD {
@@ -196,14 +178,12 @@ header {
   flex-direction: column;
   position: absolute;
   z-index: 1500;
-    /* opacity: 0; */
-    /* left: 1px; */
-    top: 50px;
-    cursor: pointer;
-    background-color: #3D4450;
-    box-shadow: 3px 3px 5px -3px #000;
-    z-index: 1000;
-    overflow: auto;
+  top: 4rem;
+  cursor: pointer;
+  background-color: #3d4450;
+  box-shadow: 3px 3px 5px -3px #000;
+  z-index: 1000;
+  overflow: auto;
 }
 
 .COMUNIDAD p {
@@ -212,8 +192,8 @@ header {
 }
 
 .TIENDA p {
-    padding: 10px 10px;
-    overflow: auto;
+  padding: 10px 10px;
+  overflow: auto;
 }
 
 .Submenu {
@@ -223,11 +203,10 @@ header {
   color: #dcdedf;
   overflow: auto;
   width: 120px;
-
 }
 
 .Submenu:hover {
-  background-color: #DCDEDF;
+  background-color: #dcdedf;
   color: #000;
 }
 
@@ -236,16 +215,16 @@ header {
 }
 
 .centro {
-  padding: 100px 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: left;
+  height: 100vh;
+  width: 100%;
 }
 
 .centro2 {
-  position: relative;
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -295,8 +274,8 @@ header {
 }
 
 .content .form {
-  width: 466.9px;
-  height: 39.2px;
+  width: 100%;
+  height: 2.3rem;
   border-radius: 2px;
   background-color: #32353c;
   font-size: 15px;
@@ -305,6 +284,7 @@ header {
   border: none;
   margin: 1px 0 10px 0;
   outline: none;
+  padding: 0 10px;
 }
 
 .form:focus {
@@ -327,7 +307,7 @@ header {
   padding: 0 3px;
 }
 
-#Recordarme{
+#Recordarme {
   height: 14px;
   width: 14px;
   padding: 3px;
@@ -336,7 +316,6 @@ header {
   cursor: pointer;
 }
 
-
 .button {
   display: flex;
   flex-direction: column;
@@ -344,7 +323,6 @@ header {
 }
 
 .Inicio {
-  position: relative;
   background: linear-gradient(90deg, #06bfff 0%, #2d73ff 100%);
   border-radius: 2px;
   border: none;
@@ -378,7 +356,7 @@ header {
 }
 
 .ayuda {
-  margin: 40px 0 0 0;
+  margin: 28px 0 0 0;
 }
 
 .ayuda a {
@@ -398,7 +376,6 @@ header {
   letter-spacing: 0.02rem;
   font-weight: normal;
 }
-
 
 .QR {
   margin: 0 0 0 50px;
@@ -440,18 +417,14 @@ header {
 footer {
   background-color: #181a21;
   font-family: "Motiva Sans", Sans-serif;
-  
 }
 
 .center {
   display: flex;
-  flex-direction: row;
-  /* padding-top: 48px; */
   align-items: center;
-  margin-right: auto;
-  margin-left: auto;
   justify-content: center;
-  /* background-color: #181a21; */
+  padding: 8rem 0;
+  margin: 0 auto;
 }
 
 .centerResponsive {
@@ -527,33 +500,33 @@ footer {
 }
 
 .footer {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: left;
-  width: auto;
   font-size: 12px;
   color: #8f98a0;
-  border: 0;
-  margin: 0;
   padding: 32px 0;
   background-color: #181a21;
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .footer_content {
-  position: relative;
-  margin: 0 auto;
-  overflow: auto;
+  display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid #2d2f37;
+  border-width: 1px 0;
+  padding: 0.7rem 0;
 }
 
 .footerLogo {
-  position: absolute;
-  left: 16px;
-  top: 4px;
+  width: 200px;
 }
 
 .footerText {
-  padding: 2px 0 0 123px;
   line-height: 14px;
   display: block;
   color: #8f98a0;
@@ -568,25 +541,15 @@ footer {
   text-align: center;
 }
 
-.valve_links {
-  display: flex;
-  justify-content: left;
-  margin: 0 0 0 140px;
-}
-
 .valve_links a {
   color: #c6d4df;
 }
 
-
-@media (max-width: 1000px){
-
+@media (max-width: 1000px) {
   body {
     background: url(/public/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 0;
-    
   }
 
   .instalar {
@@ -596,9 +559,8 @@ footer {
   header {
     display: flex;
     justify-content: center;
-    width: 375.2px;
     height: 62px;
-    background-color: #171D25;
+    background-color: #171d25;
   }
 
   .logo2 {
@@ -620,9 +582,6 @@ footer {
   .centro {
     display: flex;
     flex-direction: column;
-    width: 375px;
-    padding: 0;
-    margin: 0;
   }
 
   .inicio-sesion {
@@ -694,10 +653,10 @@ footer {
     line-height: 16px;
     margin: 6px 0px;
     text-transform: uppercase;
-    letter-spacing: .02em;
+    letter-spacing: 0.02em;
   }
-  
-  .Mobile p{
+
+  .Mobile p {
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
@@ -707,11 +666,11 @@ footer {
   }
 
   .content .form {
-  width: 276px;
+    width: 276px;
   }
 
   .btn-n {
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 2px;
     font-weight: 700;
     font-size: 12px;
@@ -720,7 +679,6 @@ footer {
     color: #fff;
     padding: 8px 16px;
   }
-
 
   footer {
     background-color: #181a21;
@@ -736,8 +694,6 @@ footer {
     align-items: center;
     text-align: center;
     justify-content: center;
-
-    position: absolute;
   }
 
   .footer_content {
